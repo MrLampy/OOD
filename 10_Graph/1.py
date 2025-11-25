@@ -25,7 +25,7 @@ def create_directed_graph_and_get_adjacency_matrix(input_string):
             adjacency_matrix[source_index][target_index] = 1
 
     header = "    " + "".join([f"{node:3}" for node in sorted_nodes])
-    print("\n" + header)
+    print(header)
     
     for i in range(num_nodes):
         node = sorted_nodes[i]
